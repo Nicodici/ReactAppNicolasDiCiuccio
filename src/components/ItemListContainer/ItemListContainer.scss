@@ -1,0 +1,17 @@
+.ContenedorLista{
+    height: 600px;
+    width: 300px;
+    border: 1px solid black;
+    .ContenedorLista__ul{
+        font-size: 20px;
+        color: rgb(76, 70, 70);
+        margin: 30px;
+        .ContenedorLista__ul__item{
+            color:rgb(0, 0, 0);
+            text-decoration: none;
+            list-style-type: none;
+            margin: 5px
+
+        }
+    }
+}

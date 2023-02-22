@@ -1,0 +1,42 @@
+.header{
+    
+    background-color: rgb(35, 34, 34);
+    
+    .header__container{
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 30px 0;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        .header__container__logoTitu{
+            display:flex;
+            align-items: center;
+            
+            .header__logo{
+                color: white;
+                height: 150px;
+                width: 200px;
+                
+            }
+            .header__titu{
+                color: aliceblue;
+            }
+        }
+        .navbar{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            .navbar__link{
+                color:white;
+                font-size: 15px;
+                text-decoration: none;
+            }
+        }
+    }
+
+}
+
+
+
