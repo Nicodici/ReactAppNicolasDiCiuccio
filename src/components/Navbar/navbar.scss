@@ -7,7 +7,7 @@
         margin: 0 auto;
         padding: 30px 0;
         display:flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         .header__container__logoTitu{
             display:flex;
@@ -23,15 +23,18 @@
                 color: aliceblue;
             }
         }
-        .navbar{
+        .Contenedor__nav{
             display:flex;
-            align-items: center;
-            justify-content: center;
-            gap: 50px;
-            .navbar__link{
-                color:white;
-                font-size: 15px;
-                text-decoration: none;
+            .navbar{
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                gap: 50px;
+                .navbar__link{
+                    color:white;
+                    font-size: 15px;
+                    text-decoration: none;
+                }
             }
         }
     }

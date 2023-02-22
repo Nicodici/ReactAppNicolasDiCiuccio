@@ -1,8 +1,8 @@
 .header {
-  background-color: rgb(35, 34, 34);
+  background-color: rgb(18, 17, 17);
 }
 .header .header__container {
-  max-width: 1100px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 30px 0;
   display: flex;
@@ -21,13 +21,16 @@
 .header .header__container .header__container__logoTitu .header__titu {
   color: aliceblue;
 }
-.header .header__container .navbar {
+.header .header__container .Contenedor__nav {
+  display: flex;
+}
+.header .header__container .Contenedor__nav .navbar {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 40px;
 }
-.header .header__container .navbar .navbar__link {
+.header .header__container .Contenedor__nav .navbar .navbar__link {
   color: white;
   font-size: 15px;
   text-decoration: none;
