@@ -1,7 +1,7 @@
 .ContenedorLista {
-  height: 600px;
-  width: 300px;
+  width: 1200px;
   border: 1px solid black;
+  margin: auto;
 }
 .ContenedorLista .ContenedorLista__ul {
   font-size: 20px;

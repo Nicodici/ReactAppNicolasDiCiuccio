@@ -10,7 +10,7 @@ function App() {
       
     <Navbar/>
     
-    <ItemListContainer greeting="Esto es un mensaje"/>
+    <ItemListContainer/>
     
     </div>
   );

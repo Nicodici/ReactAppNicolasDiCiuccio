@@ -1,0 +1,122 @@
+[
+    {
+        "id":1,
+        "nameHamb":"Clásica",
+        "description":"Lechuga, Tomate, Cheddar, hamburguesa simple",
+        "price": 900,
+        "cantHamb":1,
+        "imgH": "https://via.placeholder.com/250x250.jpg"        
+    },
+    {
+        "id":2,
+        "nameHamb":"Chesseburger",
+        "description":"Doble queso Cheddar, hamburguesa simple",
+        "price": 1000,
+        "cantHamb":1, 
+        "imgH": "https://via.placeholder.com/250x250.jpg"   
+    },
+    {
+        "id":3,
+        "nameHamb":"ChesseBacon",
+        "description":"Queso Cheddar, Bacon, hamburguesa simple",
+        "price": 1150,
+        "cantHamb":1,
+        "imgH": "https://via.placeholder.com/250x250.jpg"   
+    },
+    {
+        "id":4,
+        "nameHamb":"Doble ChesseBacon",
+        "description":"Doble queso Cheddar, doble bacon, doble hamburguesa" ,
+        "price": 1300,
+        "cantHamb":2,
+        "imgH": "https://via.placeholder.com/250x250.jpg"   
+    },
+    {
+        "id":5,
+        "nameHamb":"Triple ChesseBacon",
+        "description":"Triple queso Cheddar, triple bacon, triple hamburguesa ",
+        "price": 1450,
+        "cantHamb":3,
+        "imgH": "https://via.placeholder.com/250x250.jpg"    
+    },
+    {
+        "id":6,
+        "nameHamb":"Provoburguer",
+        "description":"Provoleta, morrones asados hamburguesa doble",
+        "price": 1500,
+        "cantHamb":2,
+        "imgH": "https://via.placeholder.com/250x250.jpg   "
+    },
+    {
+        "id":7,
+        "nameHamb":"Onionburguer",
+        "description":"Cebolla caramelizada, cheddar, tomate, hamburguesa simple",
+        "price": 1500,
+        "cantHamb":1,
+        "imgH": "https://via.placeholder.com/250x250.jpg"    
+    },
+    {
+        "id":8,
+        "nameHamb":"Premium burguer",
+        "description":"Cheddar, tomate, bacon, cebolla caramelizada, huevo, hamburguesa simple",
+        "price": 1400,
+        "cantHamb":1,
+        "imgH": "https://via.placeholder.com/250x250.jpg  " 
+    },
+     {
+        "id":9,
+        "nameHamb":"DelaCasa burguer",
+        "description":"Cheddar, tomate, bacon, cebolla morada, huevo, hamburguesa simple",
+        "price": 1500,
+        "cantHamb":1,
+        "imgH": "https://via.placeholder.com/250x250.jpg"
+    },
+    {
+        "id":10,
+        "nameHamb":"Doble burguer",
+        "description":"Doble Cheddar, doble bacon, huevo frito, doble hamburguesa ",
+        "price": 1650,
+        "cantHamb":2,
+        "imgH":"https://via.placeholder.com/250x250.jpg"        
+    },
+    {
+        "id":11,
+        "nameHamb":"Crispy burger",
+        "description":"Queso cheddar, bacon, cebolla crispy, doble hamburguesa" ,
+        "price": 1700,
+        "cantHamb":2,
+        "imgH":"https://via.placeholder.com/250x250.jpg"    
+    },
+    {
+        "id":12,
+        "nameHamb":"TripleCrispy burger",
+        "description":"Queso cheddar, bacon, cebolla crispy, triple hamburguesa ",
+        "price": 1900,
+        "cantHamb":3,
+        "imgH": "https://via.placeholder.com/250x250.jpg"    
+    },
+    {
+        "id":13,
+        "nameHamb":"Champi burguer",
+        "description":"Queso cheddar, champignones, cebolla morada, doble hamburguesa ",
+        "price": 1750,
+        "cantHamb":2,
+        "imgH": "https://via.placeholder.com/250x250.jpg"    
+    },
+    {
+        "id":14,
+        "nameHamb":"Demoledora burger",
+        "description":"Queso cheddar, bacon, cebolla crispy, huevo frito, provoleta, triple hamburguesa ",
+        "price": 1900,
+        "cantHamb":3,
+        "imgH": "https://via.placeholder.com/250x250.jpg"    
+    },
+    {
+        "id":15,
+        "nameHamb":"deCancha burger",
+        "description":"Queso cheddar, jamon, huevo frito, doble hamburguesa ",
+        "price": 1900,
+        "cantHamb":2,
+        "imgH": "https://via.placeholder.com/250x250.jpg"    
+    }
+]

@@ -1,19 +1,41 @@
-import './ItemListContainer.css'
+import { useEffect, useState } from 'react'
+import {ItemList} from './../ItemList/ItemList'
+import { cargarMenu } from './../../helpers/cargarMenu'
 
 export const ItemListContainer = () =>{
+
+    const [productos, setProductos] = useState([])
+    let [pantallaCarga, setPantallaCarga] = useState(true)
+   
+    useEffect (() => {
+        cargarMenu()
+        .then( (response)=>{
+            setProductos (response)
+            console.log ('Promesa resuelta')
+        }
+
+        )
+        .catch( ()=>{
+          console.log ("Promesa Rechazada")
+        })
+
+        .finally( ()=>{
+            setPantallaCarga(false)
+        }
+        )
+
+        },[]
+    )
     return (
-        <div className="ContenedorLista">
-            <ul className="ContenedorLista__ul">Lista de Clikeables
-            <li className="ContenedorLista__ul__item">1</li>
-            <li className="ContenedorLista__ul__item">2</li>
-            <li className="ContenedorLista__ul__item">3</li>
-            <li className="ContenedorLista__ul__item">4</li>
-            <li className="ContenedorLista__ul__item">5</li>
-
-
-
-
-            </ul>
+        <div className="ContenedorLista" >
+            
+            <h1>Este es nuestro menu</h1>
+            {
+              pantallaCarga 
+              ?
+              <h2>Cargando..</h2> 
+              : <ItemList items={productos} />
+            }
         </div>
     )
 } 
