@@ -1,11 +1,13 @@
+import './Item.css'
+
 
 export const Item = ({elem}) => {
 
 
     return (
-        <div className ="col-4">
+        <div className ="cartaItem">
 
-                <div  >
+                <div className="container m-5" >
                     <img src={elem.imgH} alt={elem.nameHamb}/>
                     <h2> {elem.nameHamb}</h2>
                     <p>Cantidad de Hamburguesas: <b>{elem.cantHamb}</b></p>
