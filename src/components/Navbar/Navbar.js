@@ -8,7 +8,7 @@ export const Navbar = () =>{
         <header className="header">
             <div className="header__container">
                 <div className='header__container__logoTitu'>
-                    <img className='header__logo' src='./img/pngtree-hand-drawn-vector-burger-logo-on-black-background-png-image_4821820.png' alt="Logo de la Empresa" />
+                    <img className='header__logo' src='./../img/pngtree-hand-drawn-vector-burger-logo-on-black-background-png-image_4821820.png' alt="Logo de la Empresa" />
                 <h1 className="header__titu">DiCi-Burgers</h1>
                 </div>
                 <div className='Contenedor__nav'>
