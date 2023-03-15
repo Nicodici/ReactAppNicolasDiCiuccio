@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import {Nosotros} from './components/Nosotros/Nosotros';
 import {Contacto} from './components/contacto/Contacto'
-
+import {ItemDetail} from './components/ItemDetail/ItemDetail'
 
 
 
@@ -20,8 +20,9 @@ function App() {
         
           <Route path="/" element={ <ItemListContainer/>}/>
           <Route path="/menu" element={<ItemListContainer/>} />
-
           <Route path="/menu/:cantburgers" element={<ItemListContainer/>} />
+          <Route path="/detail" element={<ItemDetail/>} />
+          <Route path="/detail/:itemId" element={<ItemDetail/>} />
           <Route path="/nosotros" element= {<Nosotros/>}/>
           <Route path="*" element={<Navigate to="/"/>}/>
           <Route path="contacto" element ={<Contacto/> } />
