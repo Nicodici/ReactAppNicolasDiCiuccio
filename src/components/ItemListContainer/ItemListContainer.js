@@ -10,15 +10,15 @@ export const ItemListContainer = () =>{
     const [productos, setProductos] = useState([])
     const [pantallaCarga, setPantallaCarga] = useState(true)
     
-    const {cantburgers} = useParams()
+    const {productoId} = useParams()
 
     useEffect (() => {
         cargarMenu()
         .then( (response)=>{
-            if ( !cantburgers){
+            if ( !productoId){
                 setProductos (response)
             } else {
-                setProductos (response.filter((prod) => prod.cantHamb === parseInt(cantburgers)))
+                setProductos (response.filter((prod) => prod.cantHamb === parseInt(productoId)))
                 console.log ('entro aca')
             }
         }
@@ -33,17 +33,18 @@ export const ItemListContainer = () =>{
         }
         )
 
-        },[cantburgers]
+        },[productoId]
     )
     return (
         <div className="ContenedorLista" >
             
             <h1 className='m-5'>Este es nuestro menu</h1>
+
             {
               pantallaCarga 
               ?
               <h2>Cargando..</h2> 
-              : <ItemList items={productos} />
+              : <ItemList productos={productos} />
             }
         </div>
     )
