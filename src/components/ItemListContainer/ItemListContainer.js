@@ -2,14 +2,14 @@ import { useEffect, useState } from 'react'
 import {ItemList} from './../ItemList/ItemList'
 import { cargarMenu } from './../../helpers/cargarMenu'
 import { useParams } from 'react-router-dom'
-
+import { collection, getDocs } from 'firebase/firestore'
+import { db } from '../../firebase/config'
 
 
 export const ItemListContainer = () =>{
 
     const [productos, setProductos] = useState([])
     const [pantallaCarga, setPantallaCarga] = useState(true)
-    
     const {productoId} = useParams()
 
     useEffect (() => {
@@ -33,8 +33,17 @@ export const ItemListContainer = () =>{
         }
         )
 
+        /*  const productosRef = collection(db, "productos")
+        
+        getDocs(productosRef)
+            .then ((resp) =>{
+                console.log(resp.docs.map ((doc) =>{
+                    return {...doc.data(), id: doc.id}
+                })
+                )}
+            ) */
         },[productoId]
-    )
+    ) 
     return (
         <div className="ContenedorLista" >
             

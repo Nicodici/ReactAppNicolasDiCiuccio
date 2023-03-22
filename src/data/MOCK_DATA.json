@@ -5,6 +5,7 @@
         "description":"Lechuga, Tomate, Cheddar, hamburguesa simple",
         "price": 900,
         "cantHamb":1,
+        "stock": 20,
         "imgH": "https://via.placeholder.com/250x250.jpg"        
     },
     {
@@ -13,6 +14,7 @@
         "description":"Doble queso Cheddar, hamburguesa simple",
         "price": 1000,
         "cantHamb":1, 
+        "stock": 20,
         "imgH": "https://via.placeholder.com/250x250.jpg"   
     },
     {
@@ -21,6 +23,7 @@
         "description":"Queso Cheddar, Bacon, hamburguesa simple",
         "price": 1150,
         "cantHamb":1,
+        "stock": 20,
         "imgH": "https://via.placeholder.com/250x250.jpg"   
     },
     {
@@ -29,6 +32,7 @@
         "description":"Doble queso Cheddar, doble bacon, doble hamburguesa" ,
         "price": 1300,
         "cantHamb":2,
+        "stock": 20,
         "imgH": "https://via.placeholder.com/250x250.jpg"   
     },
     {
@@ -37,6 +41,7 @@
         "description":"Triple queso Cheddar, triple bacon, triple hamburguesa ",
         "price": 1450,
         "cantHamb":3,
+        "stock": 20,
         "imgH": "https://via.placeholder.com/250x250.jpg"    
     },
     {
@@ -45,6 +50,7 @@
         "description":"Provoleta, morrones asados hamburguesa doble",
         "price": 1500,
         "cantHamb":2,
+        "stock": 20,
         "imgH": "https://via.placeholder.com/250x250.jpg   "
     },
     {
@@ -53,6 +59,7 @@
         "description":"Cebolla caramelizada, cheddar, tomate, hamburguesa simple",
         "price": 1500,
         "cantHamb":1,
+        "stock": 20,
         "imgH": "https://via.placeholder.com/250x250.jpg"    
     },
     {
@@ -61,6 +68,7 @@
         "description":"Cheddar, tomate, bacon, cebolla caramelizada, huevo, hamburguesa simple",
         "price": 1400,
         "cantHamb":1,
+        "stock": 20,
         "imgH": "https://via.placeholder.com/250x250.jpg  " 
     },
      {
@@ -69,6 +77,7 @@
         "description":"Cheddar, tomate, bacon, cebolla morada, huevo, hamburguesa simple",
         "price": 1500,
         "cantHamb":1,
+        "stock": 20,
         "imgH": "https://via.placeholder.com/250x250.jpg"
     },
     {
@@ -77,6 +86,7 @@
         "description":"Doble Cheddar, doble bacon, huevo frito, doble hamburguesa ",
         "price": 1650,
         "cantHamb":2,
+        "stock": 20,
         "imgH":"https://via.placeholder.com/250x250.jpg"        
     },
     {
@@ -85,6 +95,7 @@
         "description":"Queso cheddar, bacon, cebolla crispy, doble hamburguesa" ,
         "price": 1700,
         "cantHamb":2,
+        "stock": 20,
         "imgH":"https://via.placeholder.com/250x250.jpg"    
     },
     {
@@ -93,6 +104,7 @@
         "description":"Queso cheddar, bacon, cebolla crispy, triple hamburguesa ",
         "price": 1900,
         "cantHamb":3,
+        "stock": 20,
         "imgH": "https://via.placeholder.com/250x250.jpg"    
     },
     {
@@ -101,6 +113,7 @@
         "description":"Queso cheddar, champignones, cebolla morada, doble hamburguesa ",
         "price": 1750,
         "cantHamb":2,
+        "stock": 20,
         "imgH": "https://via.placeholder.com/250x250.jpg"    
     },
     {
@@ -109,6 +122,7 @@
         "description":"Queso cheddar, bacon, cebolla crispy, huevo frito, provoleta, triple hamburguesa ",
         "price": 1900,
         "cantHamb":3,
+        "stock": 20,
         "imgH": "https://via.placeholder.com/250x250.jpg"    
     },
     {
@@ -117,6 +131,7 @@
         "description":"Queso cheddar, jamon, huevo frito, doble hamburguesa ",
         "price": 1900,
         "cantHamb":2,
+        "stock": 20,
         "imgH": "https://via.placeholder.com/250x250.jpg"    
     }
 ]

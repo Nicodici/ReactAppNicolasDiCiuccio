@@ -2,7 +2,7 @@ import { useEffect,useState } from "react"
 import { useParams } from "react-router-dom"
 import { busquedaporId } from "../../helpers/busquedaporId"
 import {ItemDetail} from "../ItemDetail/ItemDetail"
-
+import {doc,getDocs} from "firebase/firestore"
 
 export const ItemDetailContainer = () =>{
 
@@ -29,7 +29,7 @@ export const ItemDetailContainer = () =>{
           }
           )
 
-    },[itemId])   
+    },[])   
     
     return (
         <div>
