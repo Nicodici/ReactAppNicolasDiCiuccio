@@ -6,7 +6,7 @@
         "price": 900,
         "cantHamb":1,
         "stock": 20,
-        "imgH": "https://via.placeholder.com/250x250.jpg"        
+        "imgH": "https://via.placeholder.com/300x300.jpg"        
     },
     {
         "id":2,
@@ -15,7 +15,7 @@
         "price": 1000,
         "cantHamb":1, 
         "stock": 20,
-        "imgH": "https://via.placeholder.com/250x250.jpg"   
+        "imgH": "https://via.placeholder.com/300x300300x300.jpg"   
     },
     {
         "id":3,
@@ -24,7 +24,7 @@
         "price": 1150,
         "cantHamb":1,
         "stock": 20,
-        "imgH": "https://via.placeholder.com/250x250.jpg"   
+        "imgH": "https://via.placeholder.com/300x300.jpg"   
     },
     {
         "id":4,
@@ -33,7 +33,7 @@
         "price": 1300,
         "cantHamb":2,
         "stock": 20,
-        "imgH": "https://via.placeholder.com/250x250.jpg"   
+        "imgH": "https://via.placeholder.com/300x300.jpg"   
     },
     {
         "id":5,
@@ -42,7 +42,7 @@
         "price": 1450,
         "cantHamb":3,
         "stock": 20,
-        "imgH": "https://via.placeholder.com/250x250.jpg"    
+        "imgH": "https://via.placeholder.com/300x300.jpg"    
     },
     {
         "id":6,
@@ -51,7 +51,7 @@
         "price": 1500,
         "cantHamb":2,
         "stock": 20,
-        "imgH": "https://via.placeholder.com/250x250.jpg   "
+        "imgH": "https://via.placeholder.com/300x300.jpg   "
     },
     {
         "id":7,
@@ -60,7 +60,7 @@
         "price": 1500,
         "cantHamb":1,
         "stock": 20,
-        "imgH": "https://via.placeholder.com/250x250.jpg"    
+        "imgH": "https://via.placeholder.com/300x300.jpg"    
     },
     {
         "id":8,
@@ -69,7 +69,7 @@
         "price": 1400,
         "cantHamb":1,
         "stock": 20,
-        "imgH": "https://via.placeholder.com/250x250.jpg  " 
+        "imgH": "https://via.placeholder.com/300x300.jpg  " 
     },
      {
         "id":9,
@@ -78,7 +78,7 @@
         "price": 1500,
         "cantHamb":1,
         "stock": 20,
-        "imgH": "https://via.placeholder.com/250x250.jpg"
+        "imgH": "https://via.placeholder.com/300x300.jpg"
     },
     {
         "id":10,
@@ -87,7 +87,7 @@
         "price": 1650,
         "cantHamb":2,
         "stock": 20,
-        "imgH":"https://via.placeholder.com/250x250.jpg"        
+        "imgH":"https://via.placeholder.com/300x300.jpg"        
     },
     {
         "id":11,
@@ -96,7 +96,7 @@
         "price": 1700,
         "cantHamb":2,
         "stock": 20,
-        "imgH":"https://via.placeholder.com/250x250.jpg"    
+        "imgH":"https://via.placeholder.com/300x300.jpg"    
     },
     {
         "id":12,
@@ -105,7 +105,7 @@
         "price": 1900,
         "cantHamb":3,
         "stock": 20,
-        "imgH": "https://via.placeholder.com/250x250.jpg"    
+        "imgH": "https://via.placeholder.com/300x300.jpg"    
     },
     {
         "id":13,
@@ -114,7 +114,7 @@
         "price": 1750,
         "cantHamb":2,
         "stock": 20,
-        "imgH": "https://via.placeholder.com/250x250.jpg"    
+        "imgH": "https://via.placeholder.com/300x300.jpg"    
     },
     {
         "id":14,
@@ -123,7 +123,7 @@
         "price": 1900,
         "cantHamb":3,
         "stock": 20,
-        "imgH": "https://via.placeholder.com/250x250.jpg"    
+        "imgH": "https://via.placeholder.com/300x300.jpg"    
     },
     {
         "id":15,
@@ -132,6 +132,6 @@
         "price": 1900,
         "cantHamb":2,
         "stock": 20,
-        "imgH": "https://via.placeholder.com/250x250.jpg"    
+        "imgH": "https://via.placeholder.com/300x300.jpg"    
     }
 ]

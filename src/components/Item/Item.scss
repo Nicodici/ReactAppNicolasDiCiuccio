@@ -1,19 +1,30 @@
-.cartaItem{
-    width: 500px;
-    height: 100%;
-    border: black solid 1px;
+.cont__total {
+  width: 500px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  .cont__item {
     display: flex;
     flex-direction: column;
-    align-content: center;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
-    margin: 10px;
-        .cartaItem__producto{
-            display:flex;
-            flex-direction: column;
-            gap:3px;
-            justify-items: center;
-            align-items: center;
-            border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    transition: all 300ms;
+   }
+   
+   .cont__item:hover {
+    transform: scale(1.05);
+   }     
+       
+    .cont__item__element {
+      color: white;
+      margin: 10px;
+      
     }
-}
+  }
+

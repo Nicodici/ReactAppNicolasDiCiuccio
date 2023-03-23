@@ -1,4 +1,4 @@
-
+import {Loader} from './../Loader/Loader'
 
 
 export const Contacto = () => {
@@ -8,7 +8,7 @@ export const Contacto = () => {
         <div className="container m-5">
 
         <h1>Contacto</h1>
-        <hr/>
+        <Loader/>
         </div>
     )
 

@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react'
 import {ItemList} from './../ItemList/ItemList'
 import { cargarMenu } from './../../helpers/cargarMenu'
 import { useParams } from 'react-router-dom'
-import { collection, getDocs } from 'firebase/firestore'
-import { db } from '../../firebase/config'
+
 import "./ItemListContainer.css"
+import {Loader} from './../Loader/Loader'
 
 export const ItemListContainer = () =>{
 
@@ -52,7 +52,7 @@ export const ItemListContainer = () =>{
             {
               pantallaCarga 
               ?
-              <h2>Cargando..</h2> 
+              <Loader/> 
               : <ItemList productos={productos} />
             }
         </div>

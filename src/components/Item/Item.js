@@ -5,14 +5,14 @@ export const Item = ({elem}) => {
 
 
     return (
-        <div className ="cartaItem">
+        <div className ="cont__total">
 
-                <div className="cartaItem__producto" >
+                <div className="cont__item" >
                     <img src={elem.imgH} alt={elem.nameHamb}/>
-                    <h2> {elem.nameHamb}</h2>
-                    <p>Cantidad de Hamburguesas: <b>{elem.cantHamb}</b></p>
-                    <p>{elem.description}</p>
-                    <h5>Precio: ${elem.price}</h5>
+                    <h1 className='cont__item__element'> {elem.nameHamb}</h1>
+                    <p className='cont__item__element'>Cantidad de Hamburguesas: <b>{elem.cantHamb}</b></p>
+                    <p className='cont__item__element'>{elem.description}</p>
+                    <h5 className='cont__item__element'>Precio: ${elem.price}</h5>
                     <Link to={`/detail/${elem.id}`} className='btn btn-secondary'>Ver detalle</Link>
                 </div>
 
