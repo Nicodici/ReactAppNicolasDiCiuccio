@@ -16,7 +16,7 @@ export const ItemDetail = ({productos}) => {
                     <ItemCount max={productos.stock}/>
                     <p>Stock disponible: {productos.stock}</p>                    
 
-                    <Link to={`/detail/${productos.id}`} /* className="ricu" */>Ver más</Link>
+                    <Link to={"/menu"} className="btn btn-secondary">Volver</Link>
                 </div>
 
         </div>

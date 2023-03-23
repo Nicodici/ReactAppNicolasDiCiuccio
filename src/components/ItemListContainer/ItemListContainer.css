@@ -1,7 +1,13 @@
 .ContenedorLista {
-  height: 600px;
-  width: 300px;
-  border: 1px solid black;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-image: url(./../../../public/img/fondopantalla.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+  background-blend-mode: soft-light;
+  background-color: rgb(10, 10, 10);
 }
 .ContenedorLista .containerTitulo {
   display: flex;
@@ -10,15 +16,8 @@
 }
 .ContenedorLista .containerTitulo .containerTitulo__titulo {
   display: flex;
-}
-.ContenedorLista .ContenedorLista__ul {
-  font-size: 20px;
-  color: rgb(76, 70, 70);
+  font-size: 70px;
+  font-weight: bold;
   margin: 30px;
-}
-.ContenedorLista .ContenedorLista__ul .ContenedorLista__ul__item {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  list-style-type: none;
-  margin: 5px;
+  color: white;
 }/*# sourceMappingURL=ItemListContainer.css.map */

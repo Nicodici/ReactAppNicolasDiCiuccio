@@ -4,7 +4,7 @@ import { cargarMenu } from './../../helpers/cargarMenu'
 import { useParams } from 'react-router-dom'
 import { collection, getDocs } from 'firebase/firestore'
 import { db } from '../../firebase/config'
-
+import "./ItemListContainer.css"
 
 export const ItemListContainer = () =>{
 

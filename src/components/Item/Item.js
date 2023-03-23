@@ -13,7 +13,7 @@ export const Item = ({elem}) => {
                     <p>Cantidad de Hamburguesas: <b>{elem.cantHamb}</b></p>
                     <p>{elem.description}</p>
                     <h5>Precio: ${elem.price}</h5>
-                    <Link to={`/detail/${elem.id}`} className='btn btn-secondary'>Ver más</Link>
+                    <Link to={`/detail/${elem.id}`} className='btn btn-secondary'>Ver detalle</Link>
                 </div>
 
         </div>

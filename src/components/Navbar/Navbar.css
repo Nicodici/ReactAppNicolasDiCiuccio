@@ -1,5 +1,5 @@
 .header {
-  background-color: rgb(35, 34, 34);
+  background-color: rgb(0, 0, 0);
 }
 .header .header__container {
   max-width: 1100px;
@@ -34,4 +34,5 @@
   color: white;
   font-size: 15px;
   text-decoration: none;
+  font-weight: bold;
 }/*# sourceMappingURL=navbar.css.map */

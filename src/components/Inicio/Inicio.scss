@@ -1,16 +1,45 @@
 .containerIni {
     display:flex;
     align-items: center;
+    flex-direction: column;
+    background-color: rgb(31, 31, 31);
+    background-image: url(./../../../public/img/fondopantalla.jpg);
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-size: cover;
     .containerIni__cont{
         display:flex;
         align-items: center;
         justify-items: center;
         height: 100vh;
+        flex-direction: column;
         .containerIni__cont__titulo{
-            font-size: 90px;
-            color:green;
+            font-size: 70px;
+            color:rgb(255, 255, 255);
+            margin-top: 100px;
+        }
+        .containerIni__cont__p{
+            color:white;
+            font-size: 15px;
         }
     }
-
+    .cont__onepage{
+        display: flex;
+        flex-direction:row;
+        gap: 15px;
+        margin-top: 50px;
+        .container__onepage__options{
+            width: 300px;
+            height: 200px;
+            border: 2px solid white;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            
+        }
+    }
     
 }

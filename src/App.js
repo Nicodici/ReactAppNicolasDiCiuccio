@@ -6,7 +6,7 @@ import {Nosotros} from './components/Nosotros/Nosotros';
 import {Contacto} from './components/contacto/Contacto'
 import {ItemDetailContainer} from './components/ItemDetailContainer/ItemDetailContainer'
 import {Inicio} from './components/Inicio/Inicio'
-
+import {Footer} from './components/Footer/Footer'
 
 function App() {
 
@@ -29,7 +29,7 @@ function App() {
           <Route path="contacto" element ={<Contacto/> } />
         </Routes>
 
-    
+    <Footer/>
     
 
     </div>
