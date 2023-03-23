@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
-import ItemCount from "../ItemCount/ItemCount"
-
+import {ItemCount} from "../ItemCount/ItemCount"
+/* import './ItemDetail.css'
+ */
 export const ItemDetail = ({productos}) => {
 
     return (
@@ -15,7 +16,7 @@ export const ItemDetail = ({productos}) => {
                     <ItemCount max={productos.stock}/>
                     <p>Stock disponible: {productos.stock}</p>                    
 
-                    <Link to={`/detail/${productos.id}`} className='btn btn-secondary'>Ver más</Link>
+                    <Link to={`/detail/${productos.id}`} /* className="ricu" */>Ver más</Link>
                 </div>
 
         </div>

@@ -1,0 +1,14 @@
+.containerIni {
+  display: flex;
+  align-items: center;
+}
+.containerIni .containerIni__cont {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+}
+.containerIni .containerIni__cont .containerIni__cont__titulo {
+  font-size: 90px;
+  color: green;
+}/*# sourceMappingURL=Inicio.css.map */

@@ -1,0 +1,19 @@
+.cartaItem{
+    width: 500px;
+    height: 100%;
+    border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+        .cartaItem__producto{
+            display:flex;
+            flex-direction: column;
+            gap:3px;
+            justify-items: center;
+            align-items: center;
+            border-radius: 10px;
+    }
+}

@@ -1,12 +1,12 @@
 .header {
-  background-color: rgb(18, 17, 17);
+  background-color: rgb(35, 34, 34);
 }
 .header .header__container {
-  max-width: 1300px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 30px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .header .header__container .header__container__logoTitu {
@@ -28,7 +28,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 50px;
 }
 .header .header__container .Contenedor__nav .navbar .navbar__link {
   color: white;

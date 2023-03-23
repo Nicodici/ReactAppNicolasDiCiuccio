@@ -7,7 +7,7 @@ export const Item = ({elem}) => {
     return (
         <div className ="cartaItem">
 
-                <div className="container m-5" >
+                <div className="cartaItem__producto" >
                     <img src={elem.imgH} alt={elem.nameHamb}/>
                     <h2> {elem.nameHamb}</h2>
                     <p>Cantidad de Hamburguesas: <b>{elem.cantHamb}</b></p>

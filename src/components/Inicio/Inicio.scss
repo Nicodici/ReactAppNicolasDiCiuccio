@@ -1,0 +1,16 @@
+.containerIni {
+    display:flex;
+    align-items: center;
+    .containerIni__cont{
+        display:flex;
+        align-items: center;
+        justify-items: center;
+        height: 100vh;
+        .containerIni__cont__titulo{
+            font-size: 90px;
+            color:green;
+        }
+    }
+
+    
+}

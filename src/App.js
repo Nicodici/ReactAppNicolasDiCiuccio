@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import {Nosotros} from './components/Nosotros/Nosotros';
 import {Contacto} from './components/contacto/Contacto'
 import {ItemDetailContainer} from './components/ItemDetailContainer/ItemDetailContainer'
-
+import {Inicio} from './components/Inicio/Inicio'
 
 
 function App() {
@@ -18,7 +18,8 @@ function App() {
     
         <Routes>
         
-          <Route path="/" element={ <ItemListContainer/>}/>
+
+          <Route path="/" element={<Inicio/>}/>
           <Route path="/menu" element={<ItemListContainer/>} />
           <Route path="/menu/:productoId" element={<ItemListContainer/>} />
           <Route path="/detail" element={<ItemDetailContainer/>} />

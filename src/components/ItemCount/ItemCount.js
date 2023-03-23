@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-const ItemCount = ({max}) => {
+export const ItemCount = ({max}) => {
 
     const [cantidad, setCantidad] = useState(1)
 
