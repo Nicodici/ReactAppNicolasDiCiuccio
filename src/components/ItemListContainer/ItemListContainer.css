@@ -9,20 +9,20 @@
   background-blend-mode: soft-light;
   background-color: rgb(10, 10, 10);
 }
-.ContenedorLista .containerTitulo {
+.ContenedorLista .contTitulo {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.ContenedorLista .containerTitulo .containerTitulo__titulo {
+.ContenedorLista .contTitulo .contTitulo__titulo {
   display: flex;
   font-size: 60px;
   font-weight: bold;
   margin: 30px;
   color: white;
 }
-.ContenedorLista .containerTitulo .containerTitulo__p {
+.ContenedorLista .contTitulo .contTitulo__p {
   color: antiquewhite;
   font-size: 15px;
 }/*# sourceMappingURL=ItemListContainer.css.map */

@@ -1,0 +1,31 @@
+.cont__total__cart{
+    background-color: white;
+    .cont_total__titu{
+        text-align: center;
+        margin: 30px
+    }
+
+    .cont__item{
+        display: flex;
+        gap:30px;
+        height: 250px;
+        align-items: center;
+        justify-content: space-around;
+
+        .cont__item__img{
+            display: flex;
+            align-items: center;
+            .item__img{
+                width: 200px;
+                height: 200px;
+                display: flex;
+    
+            }
+            .item__detail{
+                display: flex;
+                flex-direction: row;
+    
+            }
+        }
+    }
+}

@@ -33,22 +33,14 @@ export const ItemListContainer = () =>{
         }
         )
 
-        /*  const productosRef = collection(db, "productos")
-        
-        getDocs(productosRef)
-            .then ((resp) =>{
-                console.log(resp.docs.map ((doc) =>{
-                    return {...doc.data(), id: doc.id}
-                })
-                )}
-            ) */
+
         },[productoId]
     ) 
     return (
         <div className="ContenedorLista" >
-            <div className='containerTitulo'>
-            <h1 className='containerTitulo__titulo'>Menu de burgers</h1>
-            <p className='containerTitulo__p'>*Todas nuestras burgers vienen acompañadas de papas.</p>
+            <div className='contTitulo'>
+            <h1 className='contTitulo__titulo'>Menu de burgers</h1>
+            <p className='contTitulo__p'>*Todas nuestras burgers vienen acompañadas de papas.</p>
             </div>
             {
               pantallaCarga 

@@ -8,19 +8,19 @@
     background-size:contain;
     background-blend-mode: soft-light;
     background-color: rgb(10, 10, 10);
-    .containerTitulo{
+    .contTitulo{
         display:flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        .containerTitulo__titulo{
+        .contTitulo__titulo{
             display:flex;
             font-size: 60px;
             font-weight: bold;
             margin: 30px;
             color: white;
         }
-        .containerTitulo__p{
+        .contTitulo__p{
             color: antiquewhite;
             font-size: 15px;
         }

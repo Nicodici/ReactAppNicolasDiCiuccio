@@ -16,7 +16,8 @@ export const ItemCount = ({ item, cantidad, setCantidad }) => {
   };
 
   const AgregarItem = () => {
-    const itemToCart = {
+   
+    let  itemToCart = {
       ...item,
       cantidad
     }
@@ -24,6 +25,8 @@ export const ItemCount = ({ item, cantidad, setCantidad }) => {
     AgregarAlCarrito (itemToCart )
   
   };
+
+
 
   return (
     <div className="m-2">

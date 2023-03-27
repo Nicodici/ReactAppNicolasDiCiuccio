@@ -1,53 +1,58 @@
-.header{
-    
-    background-color: rgb(0, 0, 0);
-    
-    .header__container{
-        max-width: 1100px;
-        margin: 0 auto;
-        padding: 30px 0;
-        display:flex;
-        justify-content: space-around;
-        align-items: center;
-        .header__container__logoTitu{
-            display:flex;
-            align-items: center;
-            
-            .header__logo{
-                color: white;
-                height: 150px;
-                width: 200px;
-                
-            }
-            .header__titu{
-                color: aliceblue;
-            }
-        }
-        .Contenedor__nav{
-            display:flex;
-            .navbar{
-                display:flex;
-                align-items: center;
-                justify-content: center;
-                gap: 50px;
-                .navbar__link{
-                    color:white;
-                    font-size: 15px;
-                    text-decoration: none;
-                    font-weight: bold;
-                }
-                .cont__carrito{
-                    .cont__carrito__icono{
-                        width: 100px;
-                        height: 100px;
-                        margin-left: 20px;
-                    }   
-                }
-            }
-        }
+.header {
+  background-color: rgb(0, 0, 0);
+
+  .header__container {
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .header__container__logoTitu {
+      display: flex;
+      align-items: center;
+
+      .header__logo {
+        color: white;
+        height: 120px;
+        width: 200px;
+      }
+      .header__titu {
+        color: aliceblue;
+      }
     }
-
+    .Contenedor__nav {
+      display: flex;
+      .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        .navbar__link {
+          color: white;
+          font-size: 15px;
+          text-decoration: none;
+          font-weight: bold;
+        }
+        .cont__carrito {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-items: center;
+          .cont__carrito__icono {
+            width: 100px;
+            height: 100px;
+          }
+          .cont__carrito__span {
+            width: 30px;
+            height: 30px;
+            color: white;
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
 }
-
-
-
