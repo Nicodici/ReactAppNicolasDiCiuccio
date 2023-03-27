@@ -7,10 +7,26 @@ import {Contacto} from './components/contacto/Contacto'
 import {ItemDetailContainer} from './components/ItemDetailContainer/ItemDetailContainer'
 import {Inicio} from './components/Inicio/Inicio'
 import {Footer} from './components/Footer/Footer'
+import { useState } from 'react';
+import {CartContext} from './CartContext/CartContext';
 
 function App() {
 
+  const [cart, setCart] = useState([])
+
+  const AgregarAlCarrito = (Item)=>{
+    setCart([...cart,Item])
+  }
+
   return (
+
+
+
+    <CartContext.Provider value={{
+      cart,
+      AgregarAlCarrito
+    }}>
+
     <BrowserRouter>
     <div>
       
@@ -34,6 +50,7 @@ function App() {
 
     </div>
     </BrowserRouter>
+    </CartContext.Provider>
   );
 }
 

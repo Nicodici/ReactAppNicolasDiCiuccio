@@ -47,7 +47,8 @@ export const ItemListContainer = () =>{
     return (
         <div className="ContenedorLista" >
             <div className='containerTitulo'>
-            <h1 className='containerTitulo__titulo'>Este es nuestro menu</h1>
+            <h1 className='containerTitulo__titulo'>Menu de burgers</h1>
+            <p className='containerTitulo__p'>*Todas nuestras burgers vienen acompañadas de papas.</p>
             </div>
             {
               pantallaCarga 

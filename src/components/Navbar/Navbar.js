@@ -22,9 +22,13 @@ export const Navbar = () =>{
                     <Link to="/pedidos" className="navbar__link">Pedidos</Link>
                     <Link to="/nosotros" className="navbar__link">Nosotros</Link>
                     <Link to="/contacto" className="navbar__link">Contacto</Link>
-
+                    <Link to="/carritodecompras" className='navbar__link'>
+                    <div className='cont__carrito'>
+                        <span></span>
+                        <img className='cont__carrito__icono' src="./../img/carritocompras.jpg"/>
+                    </div>
+                    </Link>
                 </nav>
-                <CartWidget/>
                 </div>
             </div>
         </header>

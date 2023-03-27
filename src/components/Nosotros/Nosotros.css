@@ -1,9 +1,13 @@
-.cont__total__nosotros {
+.contTotal__nos {
   background-image: url(./../../../public/img/otrofondo.jpg);
   background-color: rgb(15, 15, 15);
   background-blend-mode: soft-light;
+  background-position: center;
 }
-.cont__total__nosotros .contenedor_nosotros {
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  color: black;
+.contTotal__nos .nos__titulo {
+  color: white;
+  font-size: 30px;
+  margin: 0;
+  padding: 80px;
+  line-height: 80px;
 }/*# sourceMappingURL=Nosotros.css.map */

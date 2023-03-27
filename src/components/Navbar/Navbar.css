@@ -35,4 +35,9 @@
   font-size: 15px;
   text-decoration: none;
   font-weight: bold;
+}
+.header .header__container .Contenedor__nav .navbar .cont__carrito .cont__carrito__icono {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
 }/*# sourceMappingURL=navbar.css.map */

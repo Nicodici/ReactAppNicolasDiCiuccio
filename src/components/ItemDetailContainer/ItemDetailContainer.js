@@ -3,6 +3,8 @@ import { useParams } from "react-router-dom"
 import { busquedaporId } from "../../helpers/busquedaporId"
 import {ItemDetail} from "../ItemDetail/ItemDetail"
 import {doc,getDocs} from "firebase/firestore"
+import { Loader} from "./../Loader/Loader"
+import "./ItemDetailContainer.css"
 
 export const ItemDetailContainer = () =>{
 
@@ -32,10 +34,10 @@ export const ItemDetailContainer = () =>{
     },[])   
     
     return (
-        <div>
+        <div className="ContItemDetailContainer">
             {
             pantallaCarga
-            ? <h2>Cargando..</h2> 
+            ? <Loader/> 
             :<ItemDetail  productos={productos} />
         }
         </div>
