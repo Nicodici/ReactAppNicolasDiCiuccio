@@ -27,7 +27,7 @@ export const Navbar = () =>{
                     <Link to="/carrodecompras" className='navbar__link'>
                     <div className='cont__carrito'>
                         <div className='cont__carrito__span'>{CantCarrito()}</div>
-                        <img className='cont__carrito__icono' src="./../img/carritocompras.jpg"/>
+                        <img className='cont__carrito__icono' src="./../img/carritocompras.jpg" alt="carrito de compras"/>
                     </div>
                     </Link>
                 </nav>

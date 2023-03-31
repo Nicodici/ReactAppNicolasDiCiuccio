@@ -7,7 +7,7 @@
     "cantHamb": 1,
     "stock": 20,
     "imgH": "https://via.placeholder.com/300x300.jpg",
-    "category": "hamburguesa"
+    "category": "burger"
   },
   {
     "id": 2,
@@ -57,7 +57,7 @@
     "cantHamb": 2,
     "stock": 20,
     "imgH": "https://via.placeholder.com/300x300.jpg   ",
-    "category": "hamburguesa"
+    "category": "burger"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "cantHamb": 1,
     "stock": 20,
     "imgH": "https://via.placeholder.com/300x300.jpg",
-    "category": "hamburguesa"
+    "category": "burger"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "cantHamb": 1,
     "stock": 20,
     "imgH": "https://via.placeholder.com/300x300.jpg  ",
-    "category": "hamburguesa"
+    "category": "burger"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "cantHamb": 1,
     "stock": 20,
     "imgH": "https://via.placeholder.com/300x300.jpg",
-    "category": "hamburguesa"
+    "category": "burger"
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "cantHamb": 2,
     "stock": 20,
     "imgH": "https://via.placeholder.com/300x300.jpg",
-    "category": "hamburguesa"
+    "category": "burger"
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "cantHamb": 2,
     "stock": 20,
     "imgH": "https://via.placeholder.com/300x300.jpg",
-    "category": "hamburguesa"
+    "category": "burger"
   },
   {
     "id": 12,
@@ -117,7 +117,7 @@
     "cantHamb": 3,
     "stock": 20,
     "imgH": "https://via.placeholder.com/300x300.jpg",
-    "category": "hamburguesa"
+    "category": "burger"
   },
   {
     "id": 13,
@@ -127,7 +127,7 @@
     "cantHamb": 2,
     "stock": 20,
     "imgH": "https://via.placeholder.com/300x300.jpg",
-    "category": "hamburguesa"
+    "category": "burger"
   },
   {
     "id": 14,
@@ -137,7 +137,7 @@
     "cantHamb": 3,
     "stock": 20,
     "imgH": "https://via.placeholder.com/300x300.jpg",
-    "category": "hamburguesa"
+    "category": "burger"
   },
   {
     "id": 15,
@@ -178,7 +178,7 @@
   {
     "id": 19,
     "nameHamb": "Mila con fritas",
-    "description": "  ",
+    "description": " Milanesa doble empanado con provenzal y ajo molido ",
     "price": 850,
     "stock": 20,
     "imgH": "https://via.placeholder.com/300x300.jpg",
@@ -191,7 +191,7 @@
     "price": 900,
     "stock": 20,
     "imgH": "https://via.placeholder.com/300x300.jpg",
-    "category": "minutas"
+    "category": "demas"
   },
   {
     "id": 21,
@@ -216,10 +216,9 @@
     "nameHamb": "Sanguche de mila completo",
     "description": "Queso cheddar, jamon, huevo frito, doble hamburguesa ",
     "price": 1900,
-    "cantHamb": 2,
     "stock": 20,
     "imgH": "https://via.placeholder.com/300x300.jpg",
-    "category": "hamburguesa"
+    "category": "minutas"
   },
   {
     "id": 23,
@@ -228,6 +227,6 @@
     "price": 1900,
     "stock": 20,
     "imgH": "https://via.placeholder.com/300x300.jpg",
-    "category": "hamburguesa"
+    "category": "burger"
   }
 ]
