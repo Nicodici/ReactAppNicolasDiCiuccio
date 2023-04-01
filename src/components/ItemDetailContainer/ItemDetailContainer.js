@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { busquedaporId } from "../../helpers/busquedaporId";
 import { ItemDetail } from "../ItemDetail/ItemDetail";
-/* import { doc, getDocs } from "firebase/firestore";
- */import { Loader } from "./../Loader/Loader";
+import { doc, getDoc } from "firebase/firestore";
+import { Loader } from "./../Loader/Loader";
 import "./ItemDetailContainer.css";
+import { db } from "../../firebase/config";
 
 export const ItemDetailContainer = () => {
   const [productos, setProductos] = useState(null);
@@ -12,12 +12,14 @@ export const ItemDetailContainer = () => {
   const { itemId } = useParams();
 
   useEffect(() => {
-    busquedaporId(itemId)
-      .then((response) => {
-        setProductos(response);
-      })
-      .catch(() => {
-        console.log("Promesa Rechazada");
+    const documentRef = doc(db, "productos", itemId);
+
+    getDoc(documentRef)
+      .then((doc) => {
+        setProductos({
+          id: doc.id,
+          ...doc.data(),
+        });
       })
 
       .finally(() => {

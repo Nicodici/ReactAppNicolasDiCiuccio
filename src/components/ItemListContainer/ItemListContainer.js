@@ -1,54 +1,50 @@
-import { useEffect, useState } from 'react'
-import {ItemList} from './../ItemList/ItemList'
-import { cargarMenu } from './../../helpers/cargarMenu'
-import { useParams } from 'react-router-dom'
+import { useEffect, useState } from "react";
+import { ItemList } from "./../ItemList/ItemList";
+import { useParams } from "react-router-dom";
+import "./ItemListContainer.css";
+import { Loader } from "./../Loader/Loader";
+import { collection, getDocs, where, query } from "firebase/firestore";
+import { db } from "./../../firebase/config";
 
-import "./ItemListContainer.css"
-import {Loader} from './../Loader/Loader'
+export const ItemListContainer = () => {
+  const [productos, setProductos] = useState([]);
+  const [pantallaCarga, setPantallaCarga] = useState(true);
+    const {categoryProd} = useParams()
 
-export const ItemListContainer = () =>{
+    console.log (useParams())
 
-    const [productos, setProductos] = useState([])
-    const [pantallaCarga, setPantallaCarga] = useState(true)
-    const {productoId} = useParams()
+  useEffect(() => {
+    setPantallaCarga(true);
 
-    useEffect (() => {
-        cargarMenu()
-        .then( (response)=>{
-            if ( !productoId){
-                setProductos (response)
-            } else {
-                setProductos (response.filter((prod) => prod.cantHamb === parseInt(productoId)))
-                console.log ('entro aca')
-            }
-        }
+    const productosRef = collection(db, "productos");
+    const q = categoryProd
+                ?  query(productosRef, where("category", "==", categoryProd))
+                : productosRef
+    
+    
+    getDocs(productosRef)
+      .then((resp) => {
+        const docs = resp.docs.map((doc) => {
+          return {...doc.data(), id: doc.id};
+        });
+        setProductos(docs);
+      })
 
-        )
-        .catch( ()=>{
-          console.log ("Promesa Rechazada")
-        })
+      .finally(() => {
+        setPantallaCarga(false);
+      });
+  }, []);
 
-        .finally( ()=>{
-            setPantallaCarga(false)
-        }
-        )
-
-
-        },[productoId]
-    ) 
-    return (
-        <div className="ContenedorLista" >
-            <div className='contTitulo'>
-            <h1 className='contTitulo__titulo'>Menu de burgers</h1>
-            <p className='contTitulo__p'>*Todas nuestras burgers vienen acompañadas de papas.</p>
-            </div>
-            {
-              pantallaCarga 
-              ?
-              <Loader/> 
-              : <ItemList productos={productos} />
-            }
-        </div>
-    )
-} 
-export default ItemListContainer
+  return (
+    <div className="ContenedorLista">
+      <div className="contTitulo">
+        <h1 className="contTitulo__titulo">Menu de burgers</h1>
+        <p className="contTitulo__p">
+          *Todas nuestras burgers vienen acompañadas de papas.
+        </p>
+      </div>
+      {pantallaCarga ? <Loader /> : <ItemList productos={productos} />}
+    </div>
+  );
+};
+export default ItemListContainer;
