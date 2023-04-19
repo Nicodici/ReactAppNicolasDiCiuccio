@@ -1,0 +1,63 @@
+.formTotal {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.formTotal .formTitulo {
+  font-size: 70px;
+  font-weight: bold;
+  margin: 20px;
+}
+.formTotal .formContact {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 100%;
+  padding: 10px;
+  margin: 50px;
+}
+.formTotal .formContact .contformInputs {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.formTotal .formContact .contformInputs .formInputs {
+  width: 250px;
+  display: flex;
+  margin-left: 20px;
+}
+.formTotal .formContact .contformInputs .formLabels {
+  font-weight: 800;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.formTotal .formContact .formTextArea {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.formTotal .formContact .formTextArea .textAreaSize {
+  width: 90%;
+  height: 150px;
+}
+.formTotal .formContact .formTextArea .formLabels {
+  font-weight: 800;
+}
+.formTotal .formContact .contButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.formTotal .formContact .contButton .formSubmit {
+  margin: 10px;
+  height: 50px;
+  width: 100px;
+}/*# sourceMappingURL=Contacto.css.map */

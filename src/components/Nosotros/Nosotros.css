@@ -1,0 +1,13 @@
+.contTotal__nos {
+  background-image: url(./../../../public/img/otrofondo.jpg);
+  background-color: rgb(15, 15, 15);
+  background-blend-mode: soft-light;
+  background-position: center;
+}
+.contTotal__nos .nos__titulo {
+  color: white;
+  font-size: 30px;
+  margin: 0;
+  padding: 80px;
+  line-height: 80px;
+}/*# sourceMappingURL=Nosotros.css.map */

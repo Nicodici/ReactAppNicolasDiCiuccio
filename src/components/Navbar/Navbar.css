@@ -1,0 +1,56 @@
+.header {
+  background-color: rgb(0, 0, 0);
+}
+.header .header__container {
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header .header__container .header__container__logoTitu {
+  display: flex;
+  align-items: center;
+}
+.header .header__container .header__container__logoTitu .header__logo {
+  color: white;
+  height: 120px;
+  width: 200px;
+}
+.header .header__container .header__container__logoTitu .header__titu {
+  color: aliceblue;
+}
+.header .header__container .Contenedor__nav {
+  display: flex;
+}
+.header .header__container .Contenedor__nav .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.header .header__container .Contenedor__nav .navbar .navbar__link {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.header .header__container .Contenedor__nav .navbar .cont__carrito {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+.header .header__container .Contenedor__nav .navbar .cont__carrito .cont__carrito__icono {
+  width: 100px;
+  height: 100px;
+}
+.header .header__container .Contenedor__nav .navbar .cont__carrito .cont__carrito__span {
+  width: 30px;
+  height: 30px;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=navbar.css.map */
