@@ -9,23 +9,22 @@ import { db } from "./../../firebase/config";
 export const ItemListContainer = () => {
   const [productos, setProductos] = useState([]);
   const [pantallaCarga, setPantallaCarga] = useState(true);
-    const {categoryProd} = useParams()
+  const { categoryProd } = useParams();
 
-    console.log (useParams())
+  console.log(useParams());
 
   useEffect(() => {
     setPantallaCarga(true);
 
     const productosRef = collection(db, "productos");
     const q = categoryProd
-                ?  query(productosRef, where("category", "==", categoryProd))
-                : productosRef
-    
-    
+      ? query(productosRef, where("category", "==", categoryProd))
+      : productosRef;
+
     getDocs(productosRef)
       .then((resp) => {
         const docs = resp.docs.map((doc) => {
-          return {...doc.data(), id: doc.id};
+          return { ...doc.data(), id: doc.id };
         });
         setProductos(docs);
       })

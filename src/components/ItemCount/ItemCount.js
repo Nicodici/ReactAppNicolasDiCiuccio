@@ -1,6 +1,7 @@
 import "./ItemCount.css";
 import { CartContext } from "../../CartContext/CartContext";
 import { useContext } from "react";
+import {mostrarSweetAlert} from "../../helpers/sweetAgregar"
 
 export const ItemCount = ({ item, cantidad, setCantidad }) => {
  
@@ -26,6 +27,10 @@ export const ItemCount = ({ item, cantidad, setCantidad }) => {
   
   };
 
+  const dosFunciones = () => {
+    AgregarItem()
+    mostrarSweetAlert()
+  };
 
 
   return (
@@ -37,7 +42,7 @@ export const ItemCount = ({ item, cantidad, setCantidad }) => {
       <button onClick={sumarItem} className="btn btn-outline-primary m-2">
         +
       </button>
-      <button onClick={AgregarItem} className="btn btn-primary">
+      <button onClick={dosFunciones}  className="btn btn-primary">
         Agregar al carrito
       </button>
     </div>
