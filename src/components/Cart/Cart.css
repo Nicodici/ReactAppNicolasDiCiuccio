@@ -1,27 +1,27 @@
-.cont__total__cart {
+.totalCart {
   background-color: white;
 }
-.cont__total__cart .cont_total__titu {
-  text-align: center;
-  margin: 30px;
+.totalCart .totalCart__titulo {
+  margin: 20px;
 }
-.cont__total__cart .cont__item {
+.totalCart .cont__item {
   display: flex;
   gap: 30px;
   height: 250px;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-.cont__total__cart .cont__item .cont__item__img {
+.totalCart .cont__item .cont__item__img {
   display: flex;
   align-items: center;
 }
-.cont__total__cart .cont__item .cont__item__img .item__img {
-  width: 200px;
-  height: 200px;
+.totalCart .cont__item .cont__item__img .item__img {
+  width: 300px;
+  height: 300px;
   display: flex;
 }
-.cont__total__cart .cont__item .cont__item__img .item__detail {
+.totalCart .cont__item .cont__item__img .item__detail {
   display: flex;
   flex-direction: row;
+  width: 500px;
 }/*# sourceMappingURL=Cart.css.map */

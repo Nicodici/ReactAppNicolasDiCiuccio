@@ -29,7 +29,7 @@ const schema = Yup.object().shape({
 });
 
 export const Checkout = () => {
-  const { cart, totalCompra, vaciarCarrito } = useContext(CartContext);
+  const { cart, totalCompra, VaciarCarrito } = useContext(CartContext);
   const [orderId, setOrderId] = useState(null);
 
   const generarOrden = async (values) => {
@@ -79,7 +79,7 @@ export const Checkout = () => {
 
       addDoc(ordersRef, orden).then((doc) => {
         setOrderId(doc.id);
-        vaciarCarrito();
+        VaciarCarrito();
       });
     } else {
       alert("Hay items sin stock");
@@ -89,7 +89,7 @@ export const Checkout = () => {
   if (orderId) {
     return (
       <div className="container my-5">
-        <h2>Tu orden se registró con éxito!</h2>
+        <h1>Tu orden se registró con éxito!</h1>
         <hr />
         <p>Guarda tu número de orden: {orderId}</p>
         <Link className="btn btn-primary my-3" to="/">

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { sweetVaciar } from "../../helpers/sweetVaciar";
 
 export const Cart = () => {
-  const { cart, VaciarCarrito, EliminarItemCarro } = useContext(CartContext);
+  const { cart, VaciarCarrito, EliminarItemCarro,totalCompra } = useContext(CartContext);
 
 
   const vaciarCart = () => {
@@ -27,12 +27,12 @@ export const Cart = () => {
   }
 
   return (
-    <div className="container cont__total__cart">
-      <h1 className="cont_total__titu">Resumen de compra</h1>
+    <div className="container totalCart">
+      <h1 className="totalCart__titulo">Resumen de compra</h1>
       <hr />
 
       {cart.map((producto) => (
-        <div className="cont__item" key={producto.id}>
+        <div className="cont_totalProduct" key={producto.id}>
           <div className="cont__item__img">
             <img
               className="item__img"
@@ -58,6 +58,7 @@ export const Cart = () => {
           </div>
         </div>
       ))}
+      <h3 className="m-5">Importe total a abonar:$ {totalCompra()}</h3>
       <button className="btn btn-danger m-5" onClick={vaciarCart}>
         Vaciar carro de compras
       </button>

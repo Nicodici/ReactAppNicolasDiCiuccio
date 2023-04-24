@@ -8,7 +8,7 @@ export const Item = ({elem}) => {
         <div className ="cont__total">
 
                 <div className="cont__item" >
-                    <img src={elem.imgH} alt={elem.nameHamb}/>
+                    <img className="img_menu" src={elem.imgH} alt={elem.nameHamb}/>
                     <h1 className='cont__item__element'> {elem.nameHamb}</h1>
                     <p className='cont__item__element'>Cantidad de Hamburguesas: <b>{elem.cantHamb}</b></p>
                     <p className='cont__item__element'>{elem.description}</p>

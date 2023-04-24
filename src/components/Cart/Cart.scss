@@ -1,8 +1,7 @@
-.cont__total__cart{
+.totalCart{
     background-color: white;
-    .cont_total__titu{
-        text-align: center;
-        margin: 30px
+    .totalCart__titulo{
+        margin: 20px
     }
 
     .cont__item{
@@ -10,20 +9,21 @@
         gap:30px;
         height: 250px;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
 
         .cont__item__img{
             display: flex;
             align-items: center;
             .item__img{
-                width: 200px;
-                height: 200px;
+                width: 300px;
+                height: 300px;
                 display: flex;
     
             }
             .item__detail{
                 display: flex;
                 flex-direction: row;
+                width: 500px;
     
             }
         }
